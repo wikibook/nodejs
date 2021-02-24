@@ -108,7 +108,7 @@ ul#contents .title .num {
     padding-right: 1em;
     background: white;
     color: #474545;
-    width: 30px;
+    width: 34px;
     display: inline-block;
     font-weight: bold;
 }
@@ -117,6 +117,9 @@ ul#contents .page {
     padding-left: 0.33em;
     background: white;
     color: #64afc8;
+}
+ul#contents li.indent {
+    margin-left: 40px;
 }
 ul#detail {
     font-size: 12px;
