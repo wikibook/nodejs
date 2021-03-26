@@ -26,6 +26,18 @@ router.get('/login', function(request, response) {
     response.send(html);
 });
 
+router.post('/login_process', function (request, response) {
+    var post = request.body;
+    var email = post.email;
+    var password = post.pwd;
+    if(email === authData.email && password === authData.password) {
+        response.send('Welcome!');
+    } else {
+        response.send('Who?');
+    }
+    // response.redirect(`/topic/${title}`);
+});
+
 
 /*
 router.get('/update/:pageId', function(request, response) {
