@@ -1,8 +1,8 @@
-# Logs
 logs
 *.log
-
-# Dependency directories
 node_modules/
-
+sessions
+nodejs/sessions
+config/google.json
+config/facebook.json
 .DS_Store
